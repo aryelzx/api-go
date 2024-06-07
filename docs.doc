@@ -1,1 +1,4 @@
 upgrades = Working with Environment Variables (viper)
+
+Vantagem de usar o viper
+    - flexibilidade, a capacidade de ler configurações de diferentes fontes, e a facilidade de gestão de configurações, viper oferece uma solução mais robusta e escalável.

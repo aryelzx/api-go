@@ -1,4 +1,16 @@
 upgrades = Working with Environment Variables (viper)
 
+## config.go
 Vantagem de usar o viper
-    - flexibilidade, a capacidade de ler configurações de diferentes fontes, e a facilidade de gestão de configurações, viper oferece uma solução mais robusta e escalável.
+    - flexibilidade, a capacidade de ler configurações de diferentes fontes, e a facilidade de gestão de configurações,
+     viper oferece uma solução mais robusta e escalável.
+
+## models/insert.go
+ QueryRow executa a consulta e espera retornar uma única linha.
+ O método Scan é usado para ler o valor do id retornado pela consulta e armazená-lo na variável id.
+
+## db/connection.go
+ Retornar um ponteiro de sql.DB é crucial para garantir que o gerenciamento de conexões seja eficiente,
+ que a memória seja utilizada de forma otimizada e que todas as operações de banco de dados sejam realizadas 
+ de maneira consistente. Isso também facilita a manutenção e a flexibilidade do código,
+ permitindo que diferentes partes do programa compartilhem e utilizem a mesma instância de conexão com o banco de dados

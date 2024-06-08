@@ -1,10 +1,10 @@
 package db
 
 import (
-	"api-go/configs"
 	"database/sql"
 	"fmt"
 
+	"github.com/aryelzx/api-go/configs"
 	_ "github.com/lib/pq" //driver connection postgres
 )
 

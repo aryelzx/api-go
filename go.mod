@@ -1,4 +1,4 @@
-module api-go
+module github.com/aryelzx/api-go
 
 go 1.22.2
 
